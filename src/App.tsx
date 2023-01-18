@@ -1,4 +1,9 @@
+import { generateArray } from "utils-react";
+
 export const App = () => {
+  const array = generateArray(10);
+
+  console.log(array);
   return (
     <div>
       <h2>
